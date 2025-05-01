@@ -1,21 +1,25 @@
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(to right, #667eea, #764ba2);
-    font-family: Arial, sans-serif;
+html {
+  height: 100%;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+
 .profile-container {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    width: 350px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto;
 }
 
 .profile-info {
